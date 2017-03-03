@@ -58,10 +58,10 @@ JNIEXPORT jobjectArray JNICALL Java_xd_dl_job_ParkNative_getCarportInfo
 /*
  * Class:     xd_dl_job_ParkNative
  * Method:    payCarportRent
- * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;IFZ)I
+ * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IFZ)I
  */
 JNIEXPORT jint JNICALL Java_xd_dl_job_ParkNative_payCarportRent
-  (JNIEnv *, jclass, jstring, jstring, jstring, jobjectArray, jstring, jint, jfloat, jboolean);
+  (JNIEnv *, jclass, jstring, jstring, jstring, jobjectArray, jstring, jstring, jint, jfloat, jboolean);
 
 #ifdef __cplusplus
 }
